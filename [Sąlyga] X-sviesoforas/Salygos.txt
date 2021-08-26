@@ -1,0 +1,13 @@
+.gitignore
+index.html
+img
+css
+main.css
+
+Viršus vienodai nutolęs nuo paveikslėlio ir teksto,
+bet keičiasi dydis paveikslėlio į dešinę-apačią,
+o tekstas peršoka į kitas eilutes.
+Jo kintamųjų - mano reikšmės.
+
+IR papildoma užduotis:
+Sveiki, siunčiu papildomą užduotį. Sukurti 404 error puslapį, panaudojant šiuos paveikslėlius. Galutinis variantas turi būti kaip "MicrosoftTeams-image (6).png". Atkreipiu dėmesį, kad Giro 300 turi būti NE paveikslėlis.

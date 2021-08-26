@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    width: 45%;
+    height: 100vh;
+    background-color: white;
+}
+
+.main-title {
+    color: #3852FF;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 9.5px;
+    padding-bottom: 40px;
+    color: #A0A3AD;
+}
+
+.remember-and-forgot {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.remember {
+    color: #A0A3AD;
+    font-size: 8px;
+}
+
+.remember > input {
+    vertical-align: middle;
+}
+
+.forgot {
+    margin-top: 3px;
+    color: #8B8B9B;
+    font-size: 8px;
+    float: right;
+}
+
+span {   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #A0A3AD;
+    font-size: 8px;
+}
+
+a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #3852FF;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 8px;
+}
+.links > a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #3852FF;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.right-side {
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-start;
+    width: 55%;
+    height: 100vh;
+    background-image: url(../img/main-pic.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+}

@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.form-row:hover {
+    border-left: 5px solid #6F81EB;
+}
+
+.form-row > label {
+    border: 1px solid lightgray;
+    border-bottom: none;
+    width: 100%;
+    /*padding: 12px 20px;*/
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-row > input {
+    color: #6F81EB;
+    border: 1px solid lightgray;
+    border-top: none;
+    width: 100%;
+    padding: 12px 20px;  
+}

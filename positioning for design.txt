@@ -1,0 +1,107 @@
+nuo 13 uzdavinio...
+
+Roko: positioning terms in EN literature.
+https://github.com/Dovaras/front-end-testas-2
+display: flex; inline-block; inline; block; inline-grid;
+flex-direction: column; row;
+float: right; left;
+margin-left: calc((100% - 800px) / 2);
+background-size: cover;
+
+Vidinis stackoverflow @ ir Teams >> autoSlaptazodis
+
+Pagalba: form.txt
+Perkelti Testas-2 i Github'a:
+
+body * {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+display: flex; in 
+
+main {
+  display: inline-block;
+  width: 800px;
+  margin-top: 60px;
+  margin-left: calc((100% - 800px) / 2);
+}
+
+[Remember me] [Forget Password?]
+
+[Login] [Sign up]
+
+Or login with	[Facebook]	[LinkedIn]	[Google]
+
+/*.form-row + .form-row {
+    margin-top: 40px;
+}
+*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-row > label {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.form-row > input {
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: red;
+}
+
+.form-row > input::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
+}
+
+.form-row > button {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #015cda;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 8px 0 #0005;
+}
+
+.form-row > button:hover {
+    box-shadow: 0 2px 8px 0 #0008;
+}
+
+.form-row > span {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.form-row > a {
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #015cda;
+}
+.form-row > a:hover {
+    background-color: red;
+}
